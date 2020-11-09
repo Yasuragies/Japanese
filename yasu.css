@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'honoka';
+    src: url('honokamaru.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    border-bottom: 10px solid #fe80c4;
+    font-family: 'honoka';
+}
+
+
+.title{
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    font-size: 65px;
+    font-family: 'honoka';
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+h5{
+    font-size: 15px;
+    text-transform: none;
+    font-weight: normal;
+    float: right;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.discord{
+    font-size: 15px;
+    font-weight: normal;
+    padding-right: 1%;
+    float: right;
+    padding-top: 1.5%;
+    text-transform: uppercase;
+    font-family: 'honoka';
+    text-align: right;
+    height: 65px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo{
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: top;
+    height: 95%;
+}
+
+.link{
+    float: right;
+    padding-top: 1%;
+    width: 75px;
+    height: 80px;
+}
+
+.fa-discord{
+    font-size: 65px;
+    color:#8c9eff;
+    position: relative;
+    width: 75px;
+}
+
+.fa-patreon{
+    float: right;
+    font-size: 65px;
+    color:#F96854;
+    height: 36%;
+    width: 90%;
+    padding-right: 5px;
+}
+
+
+.card{
+    padding-top: 10%;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-areas: "image";
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.card-image{
+    padding-left: 15%;
+    grid-area: image;
+    background-image: url(first.png);
+    background-size: cover;
+    height: 350px;
+    width: 210px;
+    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.card{
+    padding-top: 10%;
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-areas: "image";
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.card-image1{
+    padding-left: 15%;
+    grid-area: image;
+    background-image: url(second.png);
+    background-size: cover;
+    width: 210px;
+    height: 350px;
+    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.card{
+    padding-top: 10%;
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-areas: "image";
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.card-image2{
+    padding-left: 15%;
+    grid-area: image;
+    background-image: url(third.png);
+    background-size: cover;
+    width: 210px;
+    height: 350px;
+    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.card{
+    padding-top: 10%;
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-areas: "image";
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.card-image3{
+    padding-left: 15%;
+    grid-area: image;
+    background-image: url(fourth.png);
+    background-size: cover;
+    width: 210px;
+    height: 350px;
+    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.card{
+    padding-top: 10%;
+    padding-left: 7%;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-areas: "image";
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.card-image4{
+    padding-left: 10%;
+    grid-area: image;
+    background-image: url(fifth.png);
+    background-size: cover;
+    width: 210px;
+    height: 350px;
+    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+@media (max-width: 1366px){
+
+    .card{
+        padding-top: 10%;
+        padding-left: 5%;
+        display: inline-block;
+        grid-template-columns: 100px;
+        grid-template-areas: "image";
+        box-shadow: rgba(0, 0, 0, 0.5);
+    }
+    
+    .card-image{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(first.png);
+        background-size: cover;
+        height: 262px;
+        width: 172px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    .card-image1{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(second.png);
+        background-size: cover;
+        height: 262px;
+        width: 172px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    
+    .card-image2{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(third.png);
+        background-size: cover;
+        height: 262px;
+        width: 172px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    .card-image3{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(fourth.png);
+        background-size: cover;
+        height: 262px;
+        width: 172px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    } 
+    
+    .card-image4{
+        padding-left: 10%;
+        grid-area: image;
+        background-image: url(fifth.png);
+        background-size: cover;
+        height: 262px;
+        width: 172px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 1080px){
+
+
+    .card{
+        padding-top: 10%;
+        padding-left: 12%;
+        padding-right: 12%;
+        grid-template-columns: 100px;
+        grid-template-areas: "image";
+        box-shadow: rgba(0, 0, 0, 0.5);
+    }
+    
+    .card-image{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(first.png);
+        background-size: cover;
+        width: 250px;
+        height: 390px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-image1{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(second.png);
+        background-size: cover;
+        width: 250px;
+        height: 390px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    .card-image2{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(third.png);
+        background-size: cover;
+        width: 250px;
+        height: 390px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-image3{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(fourth.png);
+        background-size: cover;
+        width: 250px;
+        height: 390px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    } 
+    
+    .card-image4{
+        padding-left: 10%;
+        grid-area: image;
+        background-image: url(fifth.png);
+        background-size: cover;
+        width: 250px;
+        height: 390px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    }
+}
