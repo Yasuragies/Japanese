@@ -108,6 +108,7 @@ a{
     grid-template-columns: 250px;
     grid-template-areas: "image";
     box-shadow: rgba(0, 0, 0, 0.5);
+    height: 350px;
 }
 
 .card-image{
@@ -214,6 +215,7 @@ a{
         grid-template-columns: 100px;
         grid-template-areas: "image";
         box-shadow: rgba(0, 0, 0, 0.5);
+        height: 262px;
     }
     
     .card-image{
@@ -284,7 +286,7 @@ a{
         grid-template-columns: 100px;
         grid-template-areas: "image";
         box-shadow: rgba(0, 0, 0, 0.5);
-        height: 250px;
+        height: 350px;
     }
     
     .card-image{
@@ -292,8 +294,8 @@ a{
         grid-area: image;
         background-image: url(first.png);
         background-size: cover;
-        width: 250px;
-        height: 390px;
+        width: 210px;
+        height: 350px;
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
     
@@ -302,8 +304,8 @@ a{
         grid-area: image;
         background-image: url(second.png);
         background-size: cover;
-        width: 250px;
-        height: 390px;
+        width: 210px;
+        height: 350px;
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
     
@@ -313,8 +315,8 @@ a{
         grid-area: image;
         background-image: url(third.png);
         background-size: cover;
-        width: 250px;
-        height: 390px;
+        width: 210px;
+        height: 350px;
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
     
@@ -323,8 +325,8 @@ a{
         grid-area: image;
         background-image: url(fourth.png);
         background-size: cover;
-        width: 250px;
-        height: 390px;
+        width: 210px;
+        height: 350px;
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     } 
     
@@ -333,8 +335,8 @@ a{
         grid-area: image;
         background-image: url(fifth.png);
         background-size: cover;
-        width: 250px;
-        height: 390px;
+        width: 210px;
+        height: 350px;
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
 }
@@ -369,7 +371,7 @@ a{
         grid-template-areas: "image";
         box-shadow: rgba(0, 0, 0, 0.5);
         display: inline-block;
-        height: 100px;
+        height: 160px;
     }
     
     .card-image{
