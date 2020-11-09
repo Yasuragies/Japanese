@@ -37,7 +37,7 @@ h1{
     font-size: 35px;
     padding-bottom: 10px;
     font-weight: normal;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 h5{
@@ -98,4 +98,32 @@ img{
 
 .title:hover{
     color: #fe80c4;
+}
+
+
+@media (max-width: 1366px){
+    .logo{
+        width: 6.5%;
+    }
+}
+
+@media (orientation: portrait){
+    .header{
+        height: 100px;
+        width: 100%;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 15px;
+    }
+
+    
+
 }
