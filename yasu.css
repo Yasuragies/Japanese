@@ -284,6 +284,7 @@ a{
         grid-template-columns: 100px;
         grid-template-areas: "image";
         box-shadow: rgba(0, 0, 0, 0.5);
+        height: 250px;
     }
     
     .card-image{
@@ -337,3 +338,95 @@ a{
         box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
 }
+
+@media (orientation: portrait){
+    .header{
+        height: 100px;
+        width: 100%;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 15px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .discord{
+        display: none;
+    }
+
+    .card{
+        grid-template-columns: 10px;
+        grid-template-areas: "image";
+        box-shadow: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        height: 100px;
+    }
+    
+    .card-image{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(first.png);
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    .card-image1{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(second.png);
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    
+    .card-image2{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(third.png);
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    .card-image3{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(fourth.png);
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    } 
+    
+    .card-image4{
+        padding-left: 15%;
+        grid-area: image;
+        background-image: url(fifth.png);
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+
+}
+
