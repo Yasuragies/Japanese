@@ -55,6 +55,10 @@ a{
     color: black;
 }
 
+.title:hover{
+    color: #fe80c4;
+}
+
 .discord{
     font-size: 15px;
     font-weight: normal;
