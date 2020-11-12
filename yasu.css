@@ -104,237 +104,65 @@ a{
     padding-right: 5px;
 }
 
+.bruh{
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .card{
-    padding-top: 10%;
-    padding-left: 15%;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-areas: "image";
-    box-shadow: rgba(0, 0, 0, 0.5);
-    height: 350px
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 300px;
+    width: 215px;
+    display: inline-block;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.3); 
+    
 }
 
 .card-image{
-    padding-left: 15%;
-    grid-area: image;
     background-image: url(first.png);
     background-size: cover;
-    height: 350px;
-    width: 210px;
-    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-}
-
-.card{
-    padding-top: 10%;
-    padding-left: 7%;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-areas: "image";
-    box-shadow: rgba(0, 0, 0, 0.5);
-    display: inline-block;
+      
 }
 
 .card-image1{
-    padding-left: 15%;
-    grid-area: image;
     background-image: url(second.png);
     background-size: cover;
-    width: 210px;
-    height: 350px;
-    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-}
-
-.card{
-    padding-top: 10%;
-    padding-left: 7%;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-areas: "image";
-    box-shadow: rgba(0, 0, 0, 0.5);
-    display: inline-block;
+       
 }
 
 .card-image2{
-    padding-left: 15%;
-    grid-area: image;
     background-image: url(third.png);
     background-size: cover;
-    width: 210px;
-    height: 350px;
-    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-}
-
-.card{
-    padding-top: 10%;
-    padding-left: 7%;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-areas: "image";
-    box-shadow: rgba(0, 0, 0, 0.5);
-    display: inline-block;
+       
 }
 
 .card-image3{
-    padding-left: 15%;
-    grid-area: image;
     background-image: url(fourth.png);
     background-size: cover;
-    width: 210px;
-    height: 350px;
-    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-}
-
-.card{
-    padding-top: 10%;
-    padding-left: 7%;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-areas: "image";
-    box-shadow: rgba(0, 0, 0, 0.5);
-    display: inline-block;
+       
 }
 
 .card-image4{
-    padding-left: 10%;
-    grid-area: image;
     background-image: url(fifth.png);
     background-size: cover;
-    width: 210px;
-    height: 350px;
-    box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
+       
 }
+
+
 
 @media (max-width: 1366px){
 
-    .card{
-        padding-top: 10%;
-        padding-left: 4%;
-        padding-right: 4%;
-        display: inline-block;
-        grid-template-areas: "image";
-        box-shadow: rgba(0, 0, 0, 0.5);
-        height: 262px;
-    }
     
-    .card-image{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(first.png);
-        background-size: cover;
-        height: 262px;
-        width: 172px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
-    }
-    
-    .card-image1{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(second.png);
-        background-size: cover;
-        height: 262px;
-        width: 172px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
-    }
-    
-    
-    .card-image2{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(third.png);
-        background-size: cover;
-        height: 262px;
-        width: 172px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
-    }
-    
-    .card-image3{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(fourth.png);
-        background-size: cover;
-        height: 262px;
-        width: 172px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
-    } 
     
   
 
 }
 
-@media (max-width: 1080px){
-
-
-    .card{
-        padding-top: 10%;
-        margin-left: 25px;
-        margin-right: 25px;
-        grid-template-columns: 100px;
-        grid-template-areas: "image";
-        box-shadow: rgba(0, 0, 0, 0.5);
-        height: 250px;
-    }
-    
-    .card-image{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(first.png);
-        background-size: cover;
-        width: 250px;
-        height: 390px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    }
-    
-    .card-image1{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(second.png);
-        background-size: cover;
-        width: 250px;
-        height: 390px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    }
-    
-    
-    .card-image2{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(third.png);
-        background-size: cover;
-        width: 250px;
-        height: 390px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    }
-    
-    .card-image3{
-        padding-left: 15%;
-        grid-area: image;
-        background-image: url(fourth.png);
-        background-size: cover;
-        width: 250px;
-        height: 390px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    } 
-    
-    .card-image4{
-        padding-left: 10%;
-        grid-area: image;
-        background-image: url(fifth.png);
-        background-size: cover;
-        width: 250px;
-        height: 390px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    }
-}
 
 @media (orientation: portrait){
     .header{
@@ -361,71 +189,53 @@ a{
         display: none;
     }
 
+    .bruh{
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
     .card{
-        grid-template-columns: 10px;
-        grid-template-areas: "image";
-        box-shadow: rgba(0, 0, 0, 0.5);
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 150px;
+        width: 107px;
         display: inline-block;
-        height: 160px;
-        margin-left: 8%;
-        margin-right: 7%;
+        box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3); 
+        
     }
     
     .card-image{
-        padding-left: 15%;
-        grid-area: image;
         background-image: url(first.png);
         background-size: cover;
-        width: 100px;
-        height: 160px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
+          
     }
     
     .card-image1{
-        padding-left: 15%;
-        grid-area: image;
         background-image: url(second.png);
         background-size: cover;
-        width: 100px;
-        height: 160px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
+           
     }
     
-    
     .card-image2{
-        padding-left: 15%;
-        grid-area: image;
         background-image: url(third.png);
         background-size: cover;
-        width: 100px;
-        height: 160px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
+           
     }
     
     .card-image3{
-        padding-left: 15%;
-        grid-area: image;
         background-image: url(fourth.png);
         background-size: cover;
-        width: 100px;
-        height: 160px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
-    } 
+           
+    }
     
     .card-image4{
-        padding-left: 15%;
-        grid-area: image;
         background-image: url(fifth.png);
         background-size: cover;
-        width: 100px;
-        height: 160px;
-        box-shadow:0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-        display: inline-block;
+           
     }
 
 }
-
